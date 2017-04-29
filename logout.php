@@ -1,0 +1,13 @@
+<?php 
+$page_id=-1;
+include("connect.php");
+unset($_SESSION[SITE_SESS."_AUDIOLOGIST_ID"]);
+unset($_SESSION[SITE_SESS."_AUDIOLOGIST_TITLE"]);
+unset($_SESSION[SITE_SESS."_AUDIOLOGIST_FIRSTNAME"]);
+unset($_SESSION[SITE_SESS."_AUDIOLOGIST_SURNAME"]);
+unset($_SESSION[SITE_SESS."_AUDIOLOGIST_CLINIC_ID"]);
+unset($_SESSION[SITE_SESS."_AUDIOLOGIST_BRAND_ID"]);
+unset($_SESSION[SITE_SESS."_AUDIOLOGIST_PHOTO"]);
+session_destroy();
+$application->rp_location("index.php");
+?>

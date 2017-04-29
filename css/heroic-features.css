@@ -1,0 +1,151 @@
+/*
+ * Start Bootstrap - Heroic Features (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	background-color:#d0d7da;
+}
+.navbar-brand {
+	font-size:28px!important;
+}
+.hero-spacer {
+    margin-top: 40px;
+	border-top-right-radius:0px!important;
+	background:#2e3840;
+	color:#FFF;	
+	padding-top:10px!important;
+	min-height:500px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.nav-tabs> li.active{
+  text-align:center!important;
+  min-width:300px!important;	
+  background-color: #000000 !important;	
+  color:#FFF;
+  border-top-left-radius:10px!important;
+  border-top-right-radius:10px!important;
+	
+}
+.nav-tabs > li > a{
+	background-color: #000000 !important;
+	border:none !important;	
+    color:#fff !important;
+	border-radius:none!important;
+	border-top-left-radius:10px!important;
+  border-top-right-radius:10px!important;
+	
+	
+}
+.nav-tabs > li > a:hover{
+	 background-color: #000000 !important;	
+    border: medium none;
+    color:#fff;
+	border-top-left-radius:10px!important;
+  border-top-right-radius:10px!important;
+	
+}
+.tm0{
+	margin-top:0px!important;
+}
+.tm5{
+	margin-top:5px!important;
+}
+.tm10{
+	margin-top:10px!important;
+}
+.tm150{
+	margin-top:150px;
+}
+.tm200{
+	margin-top:200px;
+}
+.side-navigation{
+	min-height:500px!important;
+	padding-top:250px;	
+}
+.side-navigation-left >a >img{
+	float:left;
+}
+.side-navigation-right >a >img{
+	float:right;
+}
+.btn-round{
+	background-color:#000;
+	border-radius:60px;	
+	min-width:60px;
+	padding:10px;
+	min-height:60px;
+}
+.btn-normal{
+	background-color:#FFF;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:12px;
+	padding-bottom:12px;
+	border:1px #000 solid;
+	border-radius:0px;	
+}
+.form-group-lg .form-control {
+	border-radius:0px!important;
+}
+.form-horizontal .form-group-lg .control-label{
+	font-size:15px!important;
+	font-weight:100!important;
+}
+.form-group-lg .form-control{
+	font-size:15px!important;
+	font-weight:100!important;
+}
+.upload-photo{
+	width:100px;
+	height:100px;
+	border:1px #000 solid;
+	vertical-align:middle;
+	padding-top:25px;
+	
+}
+a.next-page{
+	color:#000;
+}
+.inheritColor{
+	color:inherit!important;
+}
+.jumbotron, .container-fluid .jumbotron{
+	border-radius:0px !important;
+}
+.custom-nav{
+    height: 60px;
+    width: 1280px;
+	margin:0 auto;
+}
+.selector{
+	color:#000!important;
+	cursor:pointer!important;
+}
+.notAnchor {
+	color:#000!important;
+	text-decoration:none;
+}
+.noBorder{
+	border:0px!important;
+	border-radius:0px!important;
+}
+.folder-point{
+	min-height:10px;
+	background-color:#d0d7da;
+	width:200px;
+	margin-left:10px;
+	margin-bottom:-1px;
+}
