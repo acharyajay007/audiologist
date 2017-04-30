@@ -48,7 +48,7 @@ include("connect.php");
         <div class="tab-content">
 		  <div id="home" class="tab-pane fade in active">
 			<header class="jumbotron hero-spacer" style="background-color:<?php echo $application->page_template['background_color'] ?>;color:<?php echo $application->page_template['color'] ?>;">			
-				<a class="next-page inheritColor" data-page-id="4"><h2 class="text-center tm150">Consultation</h2></a>
+				<a class="next-page inheritColor" data-page-id="4"><h2 class="text-center tm150">Consultation New Page Can You See this?</h2></a>
 				<hr >
 			</header>
 		  </div>
